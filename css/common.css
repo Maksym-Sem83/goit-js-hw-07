@@ -20,11 +20,27 @@ ol {
   padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 .categories {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  justify-content: center;
+    
+    width: 440px;
+    border-radius: 8px;
+    padding: 24px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    margin: 0 auto;
  }
 
 .item {
@@ -76,6 +92,7 @@ ol {
    flex-wrap: wrap;
    column-gap: 24px;
    row-gap: 48px;
+   background: #fff;
 }
 
 .gallery li {
@@ -86,6 +103,15 @@ flex-basis: calc((100% - 24px * 2) / 3);
 
 
 /* task-3 */
+
+.container-input {
+    border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+    background: #fff;
+    margin: 0 auto;
+   
+}
 
 .text-input {
      border: 1px solid #808080;
@@ -108,4 +134,104 @@ flex-basis: calc((100% - 24px * 2) / 3);
     letter-spacing: 0.04em;
     color: #2e2f42;
     margin: 0;
+}
+
+
+/* task-4 */
+
+.login-form {
+  width: 408px;
+  padding: 24px;
+  border-radius: 8px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+.label-form {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.label-form:las {
+  margin-bottom: 0;
+}
+
+.input-form {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    padding: 8px 16px;
+    margin-top: 8px;
+}
+
+.input-form:hover {
+    border: 1px solid #000;
+}
+
+.input-form:focus {
+  border: 1px solid #808080;
+  outline: transparent;
+}
+
+.button-form {
+     border-radius: 8px;
+     border: none;
+     padding: 8px 16px;
+     width: 86px;
+     height: 40px;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     color: #fff;
+     background: #4e75ff;
+     margin-top: 16px;
+     cursor: pointer;
+}
+
+.button-form:hover {
+  background: #6c8cff;
+}
+
+
+/* task-5 */
+
+.widget {
+  width: 345px;
+  padding: 100px 88px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+.widget-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.change-color {
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4e75ff;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
 }

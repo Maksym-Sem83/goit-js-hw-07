@@ -1,5 +1,5 @@
 const form = document.querySelector(".login-form");
-form.addEventListener("submit", event => {
+form.addEventListener("submit", (event) => {
     event.preventDefault();
     const emailInput = event.currentTarget.elements.email;
     const passswordInput = event.currentTarget.elements.password;
